@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-scheduler",
+  "version": "1.0.0",
+  "description": "WhatsApp scheduled sender using WhatsApp Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "menu": "node menu.js"
+  },
+  "dependencies": {
+    "inquirer": "^13.2.5",
+    "node-schedule": "^2.1.1",
+    "qrcode-terminal": "^0.12.0",
+    "readline-sync": "^1.4.10",
+    "whatsapp-web.js": "^1.34.6"
+  }
+}
